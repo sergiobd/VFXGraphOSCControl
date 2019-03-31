@@ -9,3 +9,5 @@ A quick script to control VFX parameters using OSC messages:
 5. Add the names of the parameters to the parameters array in the inspector. (Use the EXACT same name in the VFX graph)
 6. Send your OSC messages from your preferred application using messages with the structure /<parameter name> <float_value>. 
 Eg. "/emission_rate 10000" (emission_rate has to be the exact same name in script and blackboard). 
+
+ <img src="https://user-images.githubusercontent.com/4733666/55290463-8c33ef80-540e-11e9-9cfd-105eef041e54.png" width="350">
