@@ -95,4 +95,11 @@ public class VFXGraphOscControl : MonoBehaviour
         }
 
     }
+    
+    
+    void OnDisable() {
+
+        server.Dispose();
+
+    }
 }
